@@ -1,0 +1,37 @@
+{
+  "chart_type": {
+    "type": "text",
+    "display": "Chart Type",
+    "default": "column",
+    "options": [
+      {"label": "Column Chart", "value": "column"},
+      {"label": "Line Chart", "value": "line"},
+      {"label": "Area Chart", "value": "area"}
+    ]
+  },
+  "x_values": {
+    "type": "text",
+    "display": "X Values (comma-separated)",
+    "default": "1,2,3,4,5"
+  },
+  "y_values": {
+    "type": "text",
+    "display": "Y Values (comma-separated)",
+    "default": "10,20,30,40,50"
+  },
+  "chart_title": {
+    "type": "text",
+    "display": "Chart Title",
+    "default": "My Chart"
+  },
+  "x_axis_label": {
+    "type": "text",
+    "display": "X Axis Label",
+    "default": "X Axis"
+  },
+  "y_axis_label": {
+    "type": "text",
+    "display": "Y Axis Label",
+    "default": "Y Axis"
+  }
+} 
